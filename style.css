@@ -1,21 +1,25 @@
 body {
-  background-color: #fd2e00; /* Warna Merah */
-  font-family: Arial, sans-serif; /* Jenis huruf yang bersih dan mudah dibaca */
-  color: #0000ff; /* Warna teks utama (Biru) */
+  border: 2px solid DodgerBlue;
+  font-family: "Times New Roman", Times, serif;
+  background-color: #f4f6f9;
+  margin: 0;
+  padding: 20px;
 }
 
 .kartu-profil {
-  width: 300px; /* Ditambahkan titik koma (;) */
-  margin: 50px auto; /* 50px jarak atas/bawah, auto menengahkan kiri/kanan */
-  padding: 20px;
-  background-color: white;
-  border-radius: 15px; /* Membuat sudut menjadi melengkung */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Efek bayangan */
-  text-align: center; /* Digabungkan ke dalam satu aturan .kartu-profil */
+  width: 300px;
+  margin: 50px auto;
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 25px;
+  text-align: center;
 }
 
 .kartu-profil img {
-  width: 150px;
-  height: 150px; /* Ditambahkan titik koma (;) */
-  border-radius: 50%; /* Trik untuk membuat gambar persegi menjadi lingkaran sempurna */
+  width: 100px;  
+  height: 100px;  
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid DodgerBlue;
 }
