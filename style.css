@@ -1,0 +1,22 @@
+body {
+background-color: #fd2e00; /*warna merah */
+font-family: arial, sans-seri; /*jenis huruf yangbersh dan udah dibaca
+color: #0000ff; /* warna teks utama (Biru)
+}
+.kartu-profil {
+width: 300px
+margin: 50px auto; /" 59px jarak atas/bawah, auto menengahkan kiri/kanan */
+  padding: 20px;
+  background-color: white;
+  border-radius: 15px; /*Membuat huruf menjadi melengkung */
+box-shadow:: 4px 8px rgba(0,0,0,0,1); /*Efek bayangan */
+}
+
+kartu-profil img{
+  width: 150px
+  border-radius: 50%; /* Trik untuk membuat gembar persegi menjadi lingkaran sempurna */
+}
+.kartu-profil {
+  /* ... (kode slide sebelumnya) ... */
+text-align: center; /* menegahkan semua text dalam kartu */
+}
